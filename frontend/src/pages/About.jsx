@@ -28,7 +28,7 @@ const About = () => (
         </div>
         <div className="member-card">
             <img src={David} alt="David Marshall" className="member-photo" />
-            <h4>David Marshall <br/> UCL</h4>
+            <h4>David Marshall <br/> University College London</h4>
             <p>EuroPitch Outreach Head<br/>President, Marshall Finance Group</p>
         </div>
         <div className="member-card">
@@ -39,7 +39,7 @@ const About = () => (
         <div className="member-card">
             <img src={Nicolas} alt="Nicolas Sirabidze" className="member-photo" />
             <h4>Nicolas Sirabidze <br/> SOAS University of London</h4>
-            <p>EuroPitch Logistics Head<br/>President, SOAS Quantitative Investing Group</p>
+            <p>EuroPitch Logistics Head<br/>Founder & President, SQIG</p>
         </div>
         </div>
         <h2>Our History</h2>
