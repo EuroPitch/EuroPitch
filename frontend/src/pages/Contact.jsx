@@ -1,41 +1,34 @@
-import { useState } from "react";
+export default function Contact() {
+  return (
+    <section className="container page">
+      <h2>Contact</h2>
+      <p>Societies, sponsors, and mentors — we’d love to hear from you.</p>
 
+      <p style={{ marginTop: "20px" }}>
+        You can reach us directly at{" "}
+        <a href="mailto:europitch.team@gmail.com" className="link">
+          europitch.team@gmail.com
+        </a>
+      </p>
 
-const Contact = () => {
-const [status, setStatus] = useState(null);
-
-
-const handleSubmit = (e) => {
-e.preventDefault();
-// No backend hooked up; just show a confirmation for now.
-setStatus("Thanks! We'll get back to you.");
-e.target.reset();
-};
-
-
-return (
-<section className="container page">
-<h2>Contact</h2>
-<p>Societies, sponsors, and mentors — we’d love to hear from you.</p>
-<form className="form" onSubmit={handleSubmit}>
-<label>
-Name
-<input name="name" required />
-</label>
-<label>
-Email
-<input type="email" name="email" required />
-</label>
-<label>
-Message
-<textarea name="message" rows="5" required />
-</label>
-<button className="btn primary" type="submit">Send</button>
-</form>
-{status && <p className="success" role="status">{status}</p>}
-</section>
-);
-};
-
-
-export default Contact;
+      <div style={{ marginTop: "20px", display: "flex", justifyContent: "center", gap: "20px" }}>
+        <a
+          href="https://www.linkedin.com/company/euro-pitch"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://www.instagram.com/euro.pitch/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          Instagram
+        </a>
+      </div>
+    </section>
+  );
+}

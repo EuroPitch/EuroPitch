@@ -1,3 +1,8 @@
+import Raj from "../assets/Raj.png";
+import Arya from "../assets/Arya.png";
+import David from "../assets/David.png";
+import Nicolas from "../assets/Nicolas.png";
+
 const About = () => (
     <section className="container page">
         <h2>About EuroPitch</h2>
@@ -12,7 +17,31 @@ const About = () => (
         <li>Career‑ready skills — research, risk management, and communication.</li>
         </ul>
 
+        <h2>Our Committee</h2>
+        <p>Our Committee is made up of 4 passionate students, eager to help shape the future of European Finance Societies</p>
 
+        <div className="committee-members">
+        <div className="member-card">
+            <img src={Raj} alt="Raj Upadhyaya" className="member-photo" />
+            <h4>Raj Aryan Upadhyaya <br/> Trinity College Dublin</h4>
+            <p>EuroPitch President <br/> Founder & Co-CEO, Irish Student Managed Fund</p>
+        </div>
+        <div className="member-card">
+            <img src={David} alt="David Marshall" className="member-photo" />
+            <h4>David Marshall <br/> UCL</h4>
+            <p>EuroPitch Outreach Head<br/>President, Marshall Finance Group</p>
+        </div>
+        <div className="member-card">
+            <img src={Arya} alt="Arya Wadivkar" className="member-photo" />
+            <h4>Arya Wadivkar <br/> University of Warwick</h4>
+            <p>EuroPitch Marketing Head <br/> President, Warwick Trading Society</p>
+        </div>
+        <div className="member-card">
+            <img src={Nicolas} alt="Nicolas Sirabidze" className="member-photo" />
+            <h4>Nicolas Sirabidze <br/> SOAS University of London</h4>
+            <p>EuroPitch Logistics Head<br/>President, SOAS Quantitative Investing Group</p>
+        </div>
+        </div>
         <h2>Our History</h2>
         <p>
         EuroPitch was founded in April 2024, by multiple European university investment societies,
