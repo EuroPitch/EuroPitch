@@ -6,6 +6,7 @@ import Competition from "./pages/Competition";
 import Conference from "./pages/Conference";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/404";
+import Registration from "./pages/Registration";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="competition" element={<Competition />} />
           <Route path="conference" element={<Conference />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="register" element={<Registration />} />
         </Route>
 
         {/* Fallback 404 route */}
