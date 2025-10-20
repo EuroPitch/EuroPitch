@@ -20,7 +20,7 @@ const Landing = () => {
             <div className="features container">
                 <div className="card">
                 <h3>Campus Heats</h3>
-                <p>Run an internal stock‑pitch at your society to select your team.</p>
+                <p>Run an internal selection exercise at your society to select your team.</p>
                 </div>
                 <div className="card">
                 <h3>Online Finals</h3>
