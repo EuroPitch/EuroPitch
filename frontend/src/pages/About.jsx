@@ -11,6 +11,17 @@ const About = () => (
         <li>Pan‑European reach — rotating host country based on the champions.</li>
         <li>Career‑ready skills — research, risk management, and communication.</li>
         </ul>
+
+
+        <h2>Our History</h2>
+        <p>
+        EuroPitch was founded in April 2024, by multiple European university investment societies,
+        with the aim, championed by students, to create a Pan‑European investment competition
+        that combines student learning with mutual growth between societies across Europe.
+
+        The inaugural EuroPitch competition will take place during the 2025–26 academic year,
+        with the final conference scheduled for March 2026 in London.
+        </p>
     </section>
 );
 
