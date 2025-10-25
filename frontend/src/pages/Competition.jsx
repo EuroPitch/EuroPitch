@@ -10,16 +10,15 @@ const Competition = () => (
 
     <h3>2) Online Finals (6–8 Weeks)</h3>
     <p>
-    Finalists are given simulated capital to trade on the designated platform. Teams must
-    publish a short weekly update covering positioning, risk, and rationale.
+    Finalists are given simulated capital to construct a portfolio and trade on the designated platform.
     </p>
     <div className="grid two">
     <div>
     <h4>Key Rules</h4>
     <ul className="bullets">
-    <li>Universe: large & mid‑cap equities, ETFs, indices (TBC).</li>
+    <li>Universe: large & mid‑cap equities (long-short).</li>
     <li>Risk limits: max gross & net exposure; position limits per name.</li>
-    <li>No day‑trading requirement; aim for thoughtful portfolio construction.</li>
+    <li>No day‑trading requirement, aim for thoughtful portfolio construction.</li>
     </ul>
     </div>
     <div>

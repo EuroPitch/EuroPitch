@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/404";
 import Registration from "./pages/Registration";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Routes>
@@ -28,6 +28,4 @@ function App() {
     </Router>
   );
 }
-
-export default App;
 
