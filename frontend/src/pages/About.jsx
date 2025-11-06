@@ -2,6 +2,7 @@ import Raj from "../assets/Raj.png";
 import Arya from "../assets/Arya.png";
 import David from "../assets/David.png";
 import Nicolas from "../assets/Nicolas.png";
+import Anshuman from "../assets/Anshuman.png";
 
 const About = () => (
     <section className="container page">
@@ -29,17 +30,26 @@ const About = () => (
         <div className="member-card">
             <img src={David} alt="David Marshall" className="member-photo" />
             <h4>David Marshall <br/> University College London</h4>
-            <p>EuroPitch Outreach Head<br/>President, Marshall Finance Group</p>
+            <p>EuroPitch Co-Outreach Head<br/>President, Marshall Finance Group</p>
+        </div>
+        <div className="member-card">
+            <img src={Anshuman} alt="Anshuman Sowmyanarayan" className="member-photo" />
+            <h4>Anshuman Sowmyanarayan <br/> EM Lyon/WHU</h4>
+            <p>EuroPitch Co-Outreach Head <br/> Capital Society</p>
         </div>
         <div className="member-card">
             <img src={Arya} alt="Arya Wadivkar" className="member-photo" />
             <h4>Arya Wadivkar <br/> University of Warwick</h4>
-            <p>EuroPitch Marketing Head <br/> President, Warwick Trading Society</p>
+            <p>EuroPitch Finance & Marketing Head <br/> President, Warwick Trading Society</p>
         </div>
         <div className="member-card">
             <img src={Nicolas} alt="Nicolas Sirabidze" className="member-photo" />
             <h4>Nicolas Sirabidze <br/> SOAS University of London</h4>
             <p>EuroPitch Logistics Head<br/>Founder & President, SQIG</p>
+        </div>
+        <div className="member-card">
+            <h4>Maciej Miazek <br/> University of Stirling</h4>
+            <p>EuroPitch Technology Lead</p>
         </div>
         </div>
         <h2>Our History</h2>
