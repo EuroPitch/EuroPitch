@@ -19,7 +19,7 @@ const About = () => (
         </ul>
 
         <h2>Our Committee</h2>
-        <p>Our Committee is made up of 4 passionate students, eager to help shape the future of European Finance Societies</p>
+        <p>Our Committee is made up of many passionate students, eager to help shape the future of European Finance Societies</p>
 
         <div className="committee-members">
         <div className="member-card">
@@ -54,7 +54,7 @@ const About = () => (
         </div>
         <h2>Our History</h2>
         <p>
-        EuroPitch was founded in April 2024, by multiple European university investment societies,
+        EuroPitch was founded in April 2024, pioneered by Raj Aryan Upadhyaya of the Irish Student Managed Fund, and pushed by many other Student Finance Societies,
         with the aim, championed by students, to create a Pan‑European investment competition
         that combines student learning with mutual growth between societies across Europe.
 
