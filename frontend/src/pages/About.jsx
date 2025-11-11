@@ -26,49 +26,49 @@ const About = () => (
         <div className="member-card">
             <img src={Raj} alt="Raj Upadhyaya" className="member-photo" />
             <div className="member-info">
-            <h4>Raj Aryan Upadhyaya <br/> Trinity College Dublin</h4>
-            <p>President <br/> Founder & Co-CEO, Irish Student Managed Fund</p>
+            <h4>Raj Aryan Upadhyaya, <br/> Trinity College Dublin</h4>
+            <p>EuroPitch President, <br/> ISMF Founder & Co-CEO</p>
             </div>
         </div>
         <div className="member-card">
             <img src={David} alt="David Marshall" className="member-photo" />
             <div className="member-info">
-            <h4>David Marshall <br/> University College London</h4>
-            <p>Co-Director of Partnerships<br/>President, Marshall Finance Group</p>
+            <h4>David Marshall, <br/> UCL</h4>
+            <p>EuroPitch Co-Head of Outreach,<br/>MFG President</p>
             </div>
         </div>
         <div className="member-card">
             <img src={Anshuman} alt="Anshuman Sowmyanarayan" className="member-photo" />
             <div className="member-info">
-            <h4>Anshuman Sowmyanarayan <br/> EM Lyon/WHU</h4>
-            <p>Co-Director of Partnerships <br/> Capital Society</p>
+            <h4>Anshuman Sowmyanarayan, <br/> EM Lyon/WHU</h4>
+            <p>EuroPitch Co-Head of Outreach, <br/> Capital Society</p>
             </div>
         </div>
         <div className="member-card">
             <img src={Ivanna} alt="Ivanna Dueñas-García" className="member-photo" />
             <div className="member-info">
-            <h4>Ivanna Dueñas-García <br/> University of Stirling</h4>
-            <p>Director of Marketing <br/> CEO, Stirling Student Managed Investment Fund</p>
+            <h4>Ivanna Dueñas-García, <br/> University of Stirling</h4>
+            <p>EuroPitch Head of Marketing, <br/> Stirling SMIF CEO</p>
             </div>
         </div>
         <div className="member-card">
             <img src={Arya} alt="Arya Wadivkar" className="member-photo" />
             <div className="member-info">
-            <h4>Arya Wadivkar <br/> University of Warwick</h4>
-            <p>Director of Finance <br/> President, Warwick Trading Society</p>
+            <h4>Arya Wadivkar, <br/> University of Warwick</h4>
+            <p>EuroPitch Head of Finance, <br/> WTS President</p>
             </div>
         </div>
         <div className="member-card">
             <img src={Nicolas} alt="Nicolas Sirabidze" className="member-photo" />
             <div className="member-info">
-            <h4>Nicolas Sirabidze <br/> SOAS University of London</h4>
-            <p>Director of Operations<br/>Founder & President, SQIG</p>
+            <h4>Nicolas Sirabidze, <br/> SOAS, London</h4>
+            <p>EuroPitch Head of Operations,<br/>SQIG Founder & President</p>
             </div>
         </div>
         <div className="member-card">
             <div className="member-info">
-            <h4>Maciej Miazek <br/> University of Stirling</h4>
-            <p>Director of Technology</p>
+            <h4>Maciej Miazek, <br/> University of Stirling</h4>
+            <p>EuroPitch Head of Technology</p>
             </div>
         </div>
         </div>
