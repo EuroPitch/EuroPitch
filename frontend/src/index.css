@@ -456,12 +456,28 @@ textarea:focus {
   text-decoration: underline;
 }
 
+/* COMMITTEE MEMBERS SECTION */
+.committee-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
 .member-card {
+  background: var(--panel);
+  border: 1px solid #1b2230;
+  border-radius: 14px;
+  padding: 1.5rem;
   display: flex;
+  align-items: flex-start;
   gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .member-photo {
@@ -470,6 +486,37 @@ textarea:focus {
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #263248;
+  flex-shrink: 0;
+}
+
+.member-info {
+  flex: 1;
+}
+
+.member-info h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.member-info p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .committee-members {
+    grid-template-columns: 1fr;
+  }
+  
+  .member-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .link {

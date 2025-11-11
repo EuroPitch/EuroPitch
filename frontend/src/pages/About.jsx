@@ -3,6 +3,7 @@ import Arya from "../assets/Arya.png";
 import David from "../assets/David.png";
 import Nicolas from "../assets/Nicolas.png";
 import Anshuman from "../assets/Anshuman.png";
+import Ivanna from "../assets/Ivanna.png";
 
 const About = () => (
     <section className="container page">
@@ -24,34 +25,54 @@ const About = () => (
         <div className="committee-members">
         <div className="member-card">
             <img src={Raj} alt="Raj Upadhyaya" className="member-photo" />
+            <div className="member-info">
             <h4>Raj Aryan Upadhyaya <br/> Trinity College Dublin</h4>
-            <p>EuroPitch President <br/> Founder & Co-CEO, Irish Student Managed Fund</p>
+            <p>President <br/> Founder & Co-CEO, Irish Student Managed Fund</p>
+            </div>
         </div>
         <div className="member-card">
             <img src={David} alt="David Marshall" className="member-photo" />
+            <div className="member-info">
             <h4>David Marshall <br/> University College London</h4>
-            <p>EuroPitch Co-Outreach Head<br/>President, Marshall Finance Group</p>
+            <p>Co-Director of Partnerships<br/>President, Marshall Finance Group</p>
+            </div>
         </div>
         <div className="member-card">
             <img src={Anshuman} alt="Anshuman Sowmyanarayan" className="member-photo" />
+            <div className="member-info">
             <h4>Anshuman Sowmyanarayan <br/> EM Lyon/WHU</h4>
-            <p>EuroPitch Co-Outreach Head <br/> Capital Society</p>
+            <p>Co-Director of Partnerships <br/> Capital Society</p>
+            </div>
+        </div>
+        <div className="member-card">
+            <img src={Ivanna} alt="Ivanna Dueñas-García" className="member-photo" />
+            <div className="member-info">
+            <h4>Ivanna Dueñas-García <br/> University of Stirling</h4>
+            <p>Director of Marketing <br/> CEO, Stirling Student Managed Investment Fund</p>
+            </div>
         </div>
         <div className="member-card">
             <img src={Arya} alt="Arya Wadivkar" className="member-photo" />
+            <div className="member-info">
             <h4>Arya Wadivkar <br/> University of Warwick</h4>
-            <p>EuroPitch Finance & Marketing Head <br/> President, Warwick Trading Society</p>
+            <p>Director of Finance <br/> President, Warwick Trading Society</p>
+            </div>
         </div>
         <div className="member-card">
             <img src={Nicolas} alt="Nicolas Sirabidze" className="member-photo" />
+            <div className="member-info">
             <h4>Nicolas Sirabidze <br/> SOAS University of London</h4>
-            <p>EuroPitch Logistics Head<br/>Founder & President, SQIG</p>
+            <p>Director of Operations<br/>Founder & President, SQIG</p>
+            </div>
         </div>
         <div className="member-card">
+            <div className="member-info">
             <h4>Maciej Miazek <br/> University of Stirling</h4>
-            <p>EuroPitch Technology Lead</p>
+            <p>Director of Technology</p>
+            </div>
         </div>
         </div>
+        
         <h2>Our History</h2>
         <p>
         EuroPitch was founded in April 2024, pioneered by Raj Aryan Upadhyaya of the Irish Student Managed Fund, and pushed by many other Student Finance Societies,
