@@ -21,9 +21,8 @@ export default function App() {
           <Route path="conference" element={<Conference />} />
           <Route path="contact" element={<Contact />} />
           <Route path="register" element={<Registration />} />
+          <Route path="/trading" element={<Trading />} />
         </Route>
-
-        <Route path="/trading" element={<Trading />} />
 
         {/* Fallback 404 route */}
         <Route path="*" element={<NotFound />} />
