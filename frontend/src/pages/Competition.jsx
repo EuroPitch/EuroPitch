@@ -32,7 +32,7 @@ const Competition = () => (
     </div>
 
 
-    <h3>3) Conference Finals</h3>
+    <h3>3) Conference Finals (March 20th)</h3>
     <p>
     Top teams convene in London for a one‑day conference: present your approach, defend
     decisions in Q&amp;A, and meet sponsors and judges.
@@ -43,7 +43,7 @@ const Competition = () => (
     <ol className="timeline">
     <li>Sep–Dec: Campus selections</li>
     <li>Feb–Mar: Online finals trading window (6–8 weeks)</li>
-    <li>Mar: London conference & awards</li>
+    <li>Mar 20th: London conference & awards</li>
     </ol>
 
 
