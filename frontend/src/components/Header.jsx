@@ -19,7 +19,6 @@ const Header = () => {
       <div className="nav-container">
         <NavLink to="/" className="brand">
           <img src={logo} alt="EuroPitch Logo" className="logo" />
-          <span className="brand-text">EuroPitch</span>
         </NavLink>
 
         <button

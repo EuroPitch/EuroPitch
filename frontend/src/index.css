@@ -19,10 +19,47 @@ html, body, #root {
 
 body {
   margin: 0;
-  font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Helvetica, Arial;
+  font-family: 'Inter', ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: var(--text);
   background: linear-gradient(180deg, #0a0b0f, #0b0c10 30% 70%, #0a0b0f);
   line-height: 1.6;
+}
+
+/* HEADINGS: use a more formal serif to read as finance/publishing style */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+/* Ensure header, footer and form controls explicitly inherit the chosen UI font
+   in case component-level CSS sets a different stack. Headings keep Merriweather. */
+.header,
+.nav-container,
+.brand,
+.nav-links,
+.nav-link,
+.menu-toggle,
+.footer,
+.footer-inner,
+.form,
+label,
+input,
+textarea,
+.results-container {
+  font-family: 'Inter', ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Footer title should read more formal — use the serif heading */
+.footer-title {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text);
+  margin-bottom: 0.35rem;
 }
 
 /* APP SHELL */
