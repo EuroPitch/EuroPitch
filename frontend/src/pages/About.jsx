@@ -27,7 +27,7 @@ const About = () => (
             <img src={Raj} alt="Raj Upadhyaya" className="member-photo" />
             <div className="member-info">
             <h4>Raj Aryan Upadhyaya, <br/> Trinity College Dublin</h4>
-            <p>EuroPitch President, <br/> ISMF Founder & Co-CEO</p>
+            <p>EuroPitch Founder & President, <br/> ISMF Founder & Co-CEO</p>
             </div>
         </div>
         <div className="member-card">
