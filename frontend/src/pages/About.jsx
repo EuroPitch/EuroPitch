@@ -75,7 +75,7 @@ const About = () => (
         
         <h2>Our History</h2>
         <p>
-        EuroPitch was founded in April 2024, pioneered by Raj Aryan Upadhyaya of the Irish Student Managed Fund, and pushed by many other Student Finance Societies,
+        EuroPitch was founded in April 2025, pioneered by Raj Aryan Upadhyaya of the Irish Student Managed Fund, and pushed by many other Student Finance Societies,
         with the aim, championed by students, to create a Pan‑European investment competition
         that combines student learning with mutual growth between societies across Europe.
 
