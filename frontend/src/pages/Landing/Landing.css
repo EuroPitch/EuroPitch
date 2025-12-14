@@ -1,0 +1,121 @@
+.registered.container {
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.registered h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.registered .muted {
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Country section */
+.country-group {
+  margin-bottom: 1.5rem;
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #d9e4f7;
+  margin-bottom: 0.75rem;
+}
+
+.country-header .team-flag {
+  width: 28px;
+  height: 20px;
+  border-radius: 3px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.1);
+}
+
+/* Two-column grid for teams in each country */
+.team-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-row {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  transition: background 0.15s;
+}
+
+.team-row:hover {
+  background-color: #f9fafb;
+}
+
+.team-name {
+  font-size: 0.95rem;
+  color: #111827;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.more-section {
+  text-align: center;
+  font-weight: 500;
+  color: #4b5563;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .team-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.team-flag {
+  width: 28px;
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+.flag-ni {
+  background-image: url("/Flags/Northern Ireland.svg");
+}
+
+.flag-scotland {
+  background-image: url("/Flags/Scotland.svg");
+}
+
+.flag-england {
+  background-image: url("/Flags/England.svg");
+}
+
+.flag-ireland {
+  background-image: url("/Flags/Ireland.svg");
+}
+
+.flag-germany {
+  background-image: url("/Flags/Germany.svg");
+}
+
+.flag-france {
+  background-image: url("/Flags/France.svg");
+}
+
+.flag-monaco {
+  background-image: url("/Flags/Monaco.svg");
+}
