@@ -21,7 +21,7 @@ export default function Results() {
           <p>Live standings from the Europitch Trading Challenge</p>
         </div>
         <a 
-          href="https://europitch-trading.vercel.app/standings" 
+          href="https://trading.europitch.eu/standings" 
           target="_blank" 
           rel="noopener noreferrer"
           className="btn-external"
