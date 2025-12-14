@@ -35,7 +35,7 @@ export default function Results() {
 
       <div className="iframe-wrapper">
         <iframe
-          src="https://europitch-trading.vercel.app/standings"
+          src="https://trading.europitch.eu/standings"
           title="Europitch Trading Challenge Standings"
           className="results-iframe"
           style={{ height: `${iframeHeight}px` }}
