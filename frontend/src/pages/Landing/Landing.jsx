@@ -37,7 +37,7 @@ const Landing = () => {
             <div className="registered container">
                 <h2>Registered teams</h2>
                 <p className="muted">
-                    Teams from universities across Europe have already registered.
+                    Many teams from universities across Europe have already registered.
                 </p>
 
                 <div className="country-group">
@@ -47,7 +47,7 @@ const Landing = () => {
                     </h3>
                     <ul className="team-list">
                         <li className="team-row">
-                            <span className="team-name">University of Birmingham Finance Society</span>
+                            <span className="team-name">University of Birmingham Investment & Finance Society</span>
                         </li>
 
                         <li className="team-row">
