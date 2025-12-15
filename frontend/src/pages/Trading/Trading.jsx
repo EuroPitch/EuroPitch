@@ -18,7 +18,7 @@ export default function Results() {
       <div className="results-header">
         <div className="header-content">
           <h1>Official Competition Results</h1>
-          <p>Live standings from the Europitch Trading Challenge</p>
+          <p>Live standings from the Europitch Trading Challenge (Currently a mockup)</p>
         </div>
         <a 
           href="https://trading.europitch.eu/standings" 
