@@ -65,12 +65,6 @@ const About = () => (
             <p>EuroPitch Head of Operations,<br/>SQIG Founder & President</p>
             </div>
         </div>
-        <div className="member-card">
-            <div className="member-info">
-            <h4>Maciej Miazek, <br/> University of Stirling</h4>
-            <p>EuroPitch Head of Technology</p>
-            </div>
-        </div>
         </div>
         
         <h2>Our History</h2>
