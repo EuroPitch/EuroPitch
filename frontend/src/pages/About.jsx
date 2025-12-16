@@ -41,7 +41,7 @@ const About = () => (
             <img src={Anshuman} alt="Anshuman Sowmyanarayan" className="member-photo" />
             <div className="member-info">
             <h4>Anshuman Sowmyanarayan, <br/> EM Lyon/WHU</h4>
-            <p>EuroPitch Co-Head of Outreach, <br/> Capital Society</p>
+            <p>EuroPitch Co-Head of Outreach</p>
             </div>
         </div>
         <div className="member-card">
