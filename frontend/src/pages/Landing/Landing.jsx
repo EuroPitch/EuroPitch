@@ -33,6 +33,35 @@ const Landing = () => {
                 </div>
             </div>
 
+            <div className="join container">
+                <h2>Why Join EuroPitch?</h2>
+                <p className="muted">
+                    EuroPitch gives student teams hands-on investing experience across Europe in both Buy-Side and Sell-Side skills. <br />
+                    From local campus heats to an online trading finals and an in-person conference in London. <br />
+                    Below are two quick resources you can read or download:
+                </p>
+
+                <div className="pdf-row">
+                    <div className="pdf-card">
+                        <h4>For Societies</h4>
+                        <p className="small muted">Why you should join your society into EuroPitch</p>
+                        <div className="pdf-embed">
+                            <iframe src="/docs/EuroPitch Societies.pdf" title="EuroPitch Guide" frameBorder="0" />
+                        </div>
+                        <a className="btn ghost" href="/docs/EuroPitch Societies.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+                    </div>
+
+                    <div className="pdf-card">
+                        <h4>For Sponsors</h4>
+                        <p className="small muted">What you should know about us</p>
+                        <div className="pdf-embed">
+                            <iframe src="/docs/EuroPitch Sponsors.pdf" title="EuroPitch Sponsors" frameBorder="0" />
+                        </div>
+                        <a className="btn ghost" href="/docs/EuroPitch Sponsors.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+                    </div>
+                </div>
+            </div>
+
             {/* Registered teams section */}
             <div className="registered container">
                 <h2>Registered teams</h2>
