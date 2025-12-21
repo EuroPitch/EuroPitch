@@ -157,8 +157,8 @@ const Landing = () => {
                     <ul className="team-list">
                         <li className="team-row">
                             <div className="team-item">
-                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
-                                <span className="team-name">Coming Soon...</span>
+                                <img className="team-logo" src="/Societies/qsmf.png" alt="Coming soon logo" />
+                                <span className="team-name">Queen's Student Managed Fund</span>
                             </div>
                         </li>
                     </ul>
