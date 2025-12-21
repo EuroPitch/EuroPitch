@@ -1,9 +1,9 @@
-import Raj from "../assets/Raj.png";
-import Arya from "../assets/Arya.png";
-import David from "../assets/David.png";
-import Nicolas from "../assets/Nicolas.png";
-import Anshuman from "../assets/Anshuman.png";
-import Ivanna from "../assets/Ivanna.png";
+import Raj from "../../assets/Raj.png";
+import Arya from "../../assets/Arya.png";
+import David from "../../assets/David.png";
+import Nicolas from "../../assets/Nicolas.png";
+import Anshuman from "../../assets/Anshuman.png";
+import Ivanna from "../../assets/Ivanna.png";
 
 const About = () => (
     <section className="container page">

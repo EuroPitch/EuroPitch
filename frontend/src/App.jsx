@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Landing from "./pages/Landing/Landing";
-import About from "./pages/About";
-import Competition from "./pages/Competition";
-import Contact from "./pages/Contact";
+import About from "./pages/About/About";
+import Competition from "./pages/Competition/Competition";
+import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/404";
-import Registration from "./pages/Registration";
+import Registration from "./pages/Registration/Registration";
 import Trading from "./pages/Trading/Trading";
 
 export default function App() {
