@@ -10,25 +10,6 @@ export default function Contact() {
           europitch.team@gmail.com
         </a>
       </p>
-
-      <div style={{ marginTop: "20px", display: "flex", justifyContent: "center", gap: "20px" }}>
-        <a
-          href="https://www.linkedin.com/company/euro-pitch"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link"
-        >
-          LinkedIn
-        </a>
-        <a
-          href="https://www.instagram.com/euro.pitch/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link"
-        >
-          Instagram
-        </a>
-      </div>
     </section>
   );
 }

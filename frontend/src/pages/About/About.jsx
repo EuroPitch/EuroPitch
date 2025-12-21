@@ -61,7 +61,7 @@ const About = () => (
         <div className="member-card">
             <img src={Nicolas} alt="Nicolas Sirabidze" className="member-photo" />
             <div className="member-info">
-            <h4>Nicolas Sirabidze, <br/> SOAS, London</h4>
+            <h4>Nicolas Sirabidze, <br/> SOAS (London)</h4>
             <p>EuroPitch Head of Operations,<br/>SQIG Founder & President</p>
             </div>
         </div>
