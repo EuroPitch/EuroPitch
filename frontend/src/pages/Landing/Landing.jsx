@@ -55,7 +55,7 @@ const Landing = () => {
                         <h4>For Sponsors</h4>
                         <p className="small muted">What you should know about us</p>
                         <div className="pdf-embed">
-                            <iframe src="/docs/EuroPitch Sponsors.pdf" title="EuroPitch Sponsors" frameBorder="0" />
+                            <iframe src="/docs/EuroPitch Sponsors.pdf" title="EuroPitch Sponsors" />
                         </div>
                         <a className="btn ghost" href="/docs/EuroPitch Sponsors.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
                     </div>
@@ -76,15 +76,24 @@ const Landing = () => {
                     </h3>
                     <ul className="team-list">
                         <li className="team-row">
-                            <span className="team-name">University of Birmingham Investment & Finance Society</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/bifs.png" alt="University of Birmingham logo" />
+                                <span className="team-name">University of Birmingham Investment & Finance Society</span>
+                            </div>
                         </li>
 
                         <li className="team-row">
-                            <span className="team-name">Marshall Finance Group</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/mfg.png" alt="Marshall Finance Group logo" />
+                                <span className="team-name">Marshall Finance Group</span>
+                            </div>
                         </li>
 
                         <li className="team-row">
-                            <span className="team-name">Coming Soon...</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
+                                <span className="team-name">Coming Soon...</span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -96,10 +105,16 @@ const Landing = () => {
                     </h3>
                     <ul className="team-list">
                         <li className="team-row">
-                            <span className="team-name">ESSCA Finance Society</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/essca.png" alt="ESSCA Finance Society logo" />
+                                <span className="team-name">ESSCA Finance Society</span>
+                            </div>
                         </li>
                         <li className="team-row">
-                            <span className="team-name">Coming Soon...</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
+                                <span className="team-name">Coming Soon...</span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -111,7 +126,10 @@ const Landing = () => {
                     </h3>
                     <ul className="team-list">
                         <li className="team-row">
-                            <span className="team-name">Coming Soon...</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
+                                <span className="team-name">Coming Soon...</span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -123,7 +141,10 @@ const Landing = () => {
                     </h3>
                     <ul className="team-list">
                         <li className="team-row">
-                            <span className="team-name">University of Monaco Finance Society</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/monaco.png" alt="University of Monaco logo" />
+                                <span className="team-name">University of Monaco Finance Society</span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -135,7 +156,10 @@ const Landing = () => {
                     </h3>
                     <ul className="team-list">
                         <li className="team-row">
-                            <span className="team-name">Coming Soon...</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
+                                <span className="team-name">Coming Soon...</span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -147,14 +171,23 @@ const Landing = () => {
                     </h3>
                     <ul className="team-list">
                         <li className="team-row">
-                            <span className="team-name">University Of Galway Student Managed Fund</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/galway.png" alt="University Of Galway logo" />
+                                <span className="team-name">University Of Galway Student Managed Fund</span>
+                            </div>
                         </li>
 
                         <li className="team-row">
-                            <span className="team-name">Irish Student Managed Fund</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/ismf.png" alt="Irish Student Managed Fund logo" />
+                                <span className="team-name">Irish Student Managed Fund</span>
+                            </div>
                         </li>
                         <li className="team-row">
-                            <span className="team-name">Coming Soon...</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
+                                <span className="team-name">Coming Soon...</span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -166,7 +199,10 @@ const Landing = () => {
                     </h3>
                     <ul className="team-list">
                         <li className="team-row">
-                            <span className="team-name">Coming Soon...</span>
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
+                                <span className="team-name">Coming Soon...</span>
+                            </div>
                         </li>
                     </ul>
                 </div>

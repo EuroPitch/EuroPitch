@@ -53,19 +53,46 @@
   border: 1px solid #e5e7eb;
   border-radius: 0.5rem;
   background: #ffffff;
-  transition: background 0.15s;
+  transition: background 0.15s, transform 0.12s, box-shadow 0.12s;
 }
 
 .team-row:hover {
   background-color: #f9fafb;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(2,6,23,0.06);
 }
 
 .team-name {
   font-size: 0.95rem;
   color: #111827;
-  white-space: nowrap;
+  /* allow truncation inside flex layouts */
+  flex: 1 1 auto;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* new layout for team row items */
+.team-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.team-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex: 0 0 40px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease;
+  box-shadow: 0 0 0 1px rgba(2,6,23,0.04) inset;
+  background: #f8fafc;
+}
+
+.team-row:hover .team-logo {
+  transform: scale(1.06);
+  box-shadow: 0 6px 14px rgba(2,6,23,0.08);
 }
 
 .more-section {
