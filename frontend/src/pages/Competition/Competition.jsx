@@ -40,12 +40,24 @@ const Competition = () => (
     <section className="container page">
     <div className="grid two">
     <div>
-    <h4>Conference Schedule (Draft)</h4>
+    <h4>Conference Schedule (For Competitors)</h4>
     <ul className="bullets">
-    <li>Keynote: Navigating European Markets</li>
-    <li>Final Presentations & Q&amp;A</li>
-    <li>Workshops: Portfolio Construction, Risk, Execution</li>
-    <li>Careers & Sponsor Expo</li>
+    <li>Morning Reception</li>
+    <li>Opening Remarks</li>
+    <li>Pitch Group #1</li>
+    <li>Sponsor Talk Slot #1</li>
+    <li>Pitch Group #2</li>
+    <li>Sponsor Talk Slot #2</li>
+    <li>Pitch Group #3</li>
+    <li>Sponsor Talk Slot #3</li>
+    <li>Pitch Group #4</li>
+    <li>Sponsor Talk Slot #4</li>
+    <li>Pitch Group #5</li>
+    <li>Networking & Results Calculations</li>
+    <li>Awards Ceremony</li>
+    <li>Afters!</li>
+
+    <p>NB: If you are a Society Executive, we are going to hold a leadership summit in the same area to facilitate discussion amongst societies in order to mutually benefit from future collaborations and also to keep warm ties across Europe!</p>
     </ul>
     </div>
     <div>
@@ -58,8 +70,8 @@ const Competition = () => (
 
     <h3>Timeline (Example)</h3>
     <ol className="timeline">
-    <li>Sep–Dec: Campus selections</li>
-    <li>Feb–Mar: Online finals trading window (6–8 weeks)</li>
+    <li>Sep–Feb 01: Campus selections</li>
+    <li>Feb 02 – Mar 14: Online finals trading window (6–8 weeks)</li>
     <li>Mar 20th: London conference & awards</li>
     </ol>
 
