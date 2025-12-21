@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Landing.css"
+import PdfEmbed from "../../components/PdfEmbed";
 
 const Landing = () => {
     return (
@@ -45,19 +46,13 @@ const Landing = () => {
                     <div className="pdf-card">
                         <h4>For Societies</h4>
                         <p className="small muted">Why you should join your society into EuroPitch</p>
-                        <div className="pdf-embed">
-                            <iframe src="/docs/EuroPitch Societies.pdf" title="EuroPitch Guide" frameBorder="0" />
-                        </div>
-                        <a className="btn ghost" href="/docs/EuroPitch Societies.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+                        <PdfEmbed src="/docs/EuroPitch Societies.pdf" title="EuroPitch Guide" />
                     </div>
 
                     <div className="pdf-card">
                         <h4>For Sponsors</h4>
                         <p className="small muted">What you should know about us</p>
-                        <div className="pdf-embed">
-                            <iframe src="/docs/EuroPitch Sponsors.pdf" title="EuroPitch Sponsors" />
-                        </div>
-                        <a className="btn ghost" href="/docs/EuroPitch Sponsors.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+                        <PdfEmbed src="/docs/EuroPitch Sponsors.pdf" title="EuroPitch Sponsors" />
                     </div>
                 </div>
             </div>

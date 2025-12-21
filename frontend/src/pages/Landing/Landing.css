@@ -207,6 +207,28 @@
   border: 0;
 }
 
+.pdf-card-outer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pdf-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* make embedded PDFs more readable on small screens */
+@media (max-width: 640px) {
+  .pdf-embed {
+    /* occupy a large portion of the viewport so content is readable */
+    height: 60vh;
+    min-height: 320px;
+  }
+}
+
 @media (max-width: 840px) {
   .pdf-row {
     grid-template-columns: 1fr;
