@@ -49,7 +49,7 @@ export default function Competition() {
         <h2>Where We Meet</h2>
         <div className="card" style={{ maxWidth: '700px', margin: '1.5rem auto', padding: '2rem' }}>
           <h3 style={{ marginBottom: '1rem' }}>📍 London (2026)</h3>
-          <p style={{ color: 'var(--muted)', fontSize: '1rem', lineHeight: '1.7' }}>
+          <p>
             The grand final takes place in London this year. In future editions, 
             the winning team's country will host the competition—giving you the chance 
             to bring EuroPitch home!
@@ -57,22 +57,36 @@ export default function Competition() {
         </div>
       </section>
 
-      {/* Leadership Summit Callout */}
-      <section style={{ marginTop: '3rem' }}>
-        <div className="card" style={{ 
-          background: 'linear-gradient(135deg, rgba(46, 140, 255, 0.15), rgba(46, 140, 255, 0.05))',
-          border: '1px solid rgba(46, 140, 255, 0.3)',
-          padding: '2rem'
+        {/* Leadership Summit Callout */}
+        <section style={{ marginTop: '3rem' }}>
+        <div style={{ 
+            background: 'rgba(255, 204, 0, 0.15)',
+            border: '3px solid #FFCC00',
+            borderRadius: '14px',
+            padding: '2rem'
         }}>
-          <h3 style={{ marginTop: 0 }}>🎯 Society Executive Summit</h3>
-          <p style={{ color: 'var(--text)', marginBottom: '0' }}>
-            <strong>Calling all Society Executives:</strong> We're hosting a leadership summit 
+            <h3 style={{ 
+            marginTop: 0, 
+            color: '#ffffff',
+            fontFamily: 'Merriweather, Georgia, Times New Roman, Times, serif',
+            fontWeight: 700
+            }}>
+            🎯 Society Executive Summit
+            </h3>
+            <p style={{ 
+            color: '#f5f7fa', 
+            marginBottom: '0',
+            lineHeight: '1.7',
+            fontSize: '1rem'
+            }}>
+            <strong style={{ color: '#ffffff' }}>Calling all Society Executives:</strong> We're hosting a leadership summit 
             alongside the main competition to facilitate discussions among societies across Europe. 
             Build partnerships, share best practices, and strengthen ties with fellow finance 
             societies for future collaborations.
-          </p>
+            </p>
         </div>
-      </section>
+        </section>
+
 
       {/* Call to Action */}
       <section style={{ marginTop: '4rem', textAlign: 'center', paddingBottom: '2rem' }}>
@@ -81,7 +95,7 @@ export default function Competition() {
           Societies and universities: get in touch to secure your spot in this year's competition.
         </p>
         <div className="cta-row">
-          <a href="/contact" className="btn primary">Contact Us to Register</a>
+          <a href="/register" className="btn primary">Register Your Society Here!</a>
           <a href="/about" className="btn ghost">Learn More About EuroPitch</a>
         </div>
       </section>

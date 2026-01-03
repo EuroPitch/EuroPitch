@@ -1,11 +1,16 @@
 :root {
-  --bg: #0b0c10;           /* dark background */
-  --panel: #111318;        /* panels and cards */
-  --text: #f2f5fa;         /* main text color (light) */
-  --muted: #9aa3b2;        /* secondary text color */
-  --brand: #2e8cff;        /* EuroPitch blue */
-  --brand-ink: #0c4fb3;    /* darker hover blue */
-  --ring: rgba(46, 140, 255, 0.35);
+  --bg: #001a4d; /* Deep EU blue background */
+  --bg-light: #002966; /* Slightly lighter blue for variation */
+  --panel: #ffffff; /* panels and cards - pure white */
+  --text: #1a2332; /* main text color (dark) for white panels */
+  --text-light: #f5f7fa; /* light text for blue backgrounds */
+  --muted: #5a6b7f; /* secondary text color for panels */
+  --muted-light: #c5d0e3; /* muted text for blue backgrounds */
+  --brand: #003399; /* EU Blue */
+  --brand-light: #0055cc; /* lighter hover blue */
+  --accent: #FFCC00; /* EU Gold/Yellow */
+  --accent-dark: #d9a600; /* darker gold for hover */
+  --ring: rgba(255, 204, 0, 0.35);
 }
 
 /* RESET & BASE */
@@ -22,8 +27,8 @@ body {
   font-family: 'Inter', ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--text);
-  background: linear-gradient(180deg, #0a0b0f, #0b0c10 30% 70%, #0a0b0f);
+  color: var(--text-light);
+  background: linear-gradient(180deg, #001433, #001a4d 30% 70%, #001433);
   line-height: 1.6;
 }
 
@@ -31,7 +36,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
-  color: var(--text);
+  color: var(--text-light);
   margin: 0;
 }
 
@@ -58,7 +63,7 @@ textarea,
   font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   font-size: 1.1rem;
-  color: var(--text);
+  color: var(--text-light);
   margin-bottom: 0.35rem;
 }
 
@@ -79,10 +84,10 @@ textarea,
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(11, 13, 17, 0.85);
+  background: rgba(0, 26, 77, 0.95);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  border-bottom: 3px solid var(--accent);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .nav-container {
@@ -99,7 +104,7 @@ textarea,
   align-items: center;
   gap: 0.6rem;
   text-decoration: none;
-  color: #fff;
+  color: var(--accent);
   font-weight: 600;
   font-size: 1.25rem;
   letter-spacing: 0.5px;
@@ -109,8 +114,6 @@ textarea,
   height: 60px;
   width: auto;
   object-fit: contain;
-  filter: invert(1) brightness(1.2) contrast(1.1);
-  mix-blend-mode: screen;
   border-radius: 6px;
 }
 
@@ -118,7 +121,7 @@ textarea,
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.35rem;
-  color: #fff;
+  color: var(--accent);
 }
 
 /* NAVIGATION */
@@ -129,7 +132,7 @@ textarea,
 
 .nav-link {
   text-decoration: none;
-  color: #d6d8df;
+  color: var(--muted-light);
   font-weight: 500;
   font-size: 1rem;
   position: relative;
@@ -142,13 +145,13 @@ textarea,
   bottom: -6px;
   left: 0;
   width: 0%;
-  height: 2px;
-  background: var(--brand);
+  height: 3px;
+  background: var(--accent);
   transition: width 0.25s ease;
 }
 
 .nav-link:hover {
-  color: #fff;
+  color: var(--accent);
 }
 
 .nav-link:hover::after,
@@ -170,7 +173,7 @@ textarea,
   display: block;
   width: 22px;
   height: 2px;
-  background: #fff;
+  background: var(--accent);
   transition: all 0.3s ease;
 }
 
@@ -196,12 +199,12 @@ textarea,
     top: 70px;
     right: 1rem;
     flex-direction: column;
-    background: #0c0f14;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--bg-light);
+    border: 2px solid var(--accent);
     border-radius: 12px;
     padding: 1rem 1.25rem;
     display: none;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   }
 
   .nav-links.active {
@@ -216,15 +219,15 @@ textarea,
 
 /* FOOTER */
 .footer {
-  border-top: 1px solid #1a1d24;
-  background: #0a0c11;
+  border-top: 3px solid var(--accent);
+  background: var(--bg-light);
 }
 
 .footer-inner {
   max-width: 1100px;
   margin: 0 auto;
   padding: 1.25rem;
-  color: var(--muted);
+  color: var(--muted-light);
   text-align: center;
 }
 
@@ -258,14 +261,15 @@ textarea,
 /* HERO SECTION */
 .hero {
   padding: 4rem 0 2rem;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       1200px 400px at 10% -20%,
-      rgba(46, 140, 255, 0.12),
+      rgba(255, 204, 0, 0.2),
       transparent 60%
     ),
     radial-gradient(
       1200px 400px at 90% -20%,
-      rgba(46, 140, 255, 0.12),
+      rgba(0, 85, 204, 0.25),
       transparent 60%
     );
   text-align: center;
@@ -274,11 +278,11 @@ textarea,
 .hero h1 {
   font-size: 3rem;
   margin: 0 0 0.5rem;
-  color: #fff;
+  color: #ffffff; /* Change from var(--accent) to white */
 }
 
 .lead {
-  color: var(--muted);
+  color: var(--muted-light);
   font-size: 1.15rem;
   max-width: 70ch;
   margin: 0 auto;
@@ -301,20 +305,30 @@ textarea,
 
 .card {
   background: var(--panel);
-  border: 1px solid #1b2230;
+  border: 2px solid #e1e6ef;
   border-radius: 14px;
-  padding: 1rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card * {
+  color: #1a2332 !important; /* Force ALL text inside cards to be dark */
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 20px rgba(255, 204, 0, 0.3);
+  border-color: var(--accent);
 }
 
 .card h3 {
   margin-top: 0;
-  color: #fff;
+  color: var(--brand) !important; /* EU blue for headings */
+}
+
+.card p {
+  color: #1a2332 !important; /* Dark text for paragraphs */
+  line-height: 1.6;
 }
 
 @media (max-width: 900px) {
@@ -327,22 +341,26 @@ textarea,
 .page h2 {
   font-size: 2rem;
   margin-top: 0;
-  color: #fff;
+  color: #ffffff; /* Change from var(--accent) to white */
 }
 
 .page h3 {
   margin-top: 2rem;
-  color: var(--text);
+  color: var(--text-light);
 }
 
 .page h4 {
   margin: 0.5rem 0;
-  color: var(--muted);
+  color: var(--muted-light);
+}
+
+.page p {
+  color: var(--muted-light);
 }
 
 .bullets {
   line-height: 1.75;
-  color: var(--muted);
+  color: var(--muted-light);
 }
 
 /* BUTTONS & FORMS */
@@ -350,35 +368,41 @@ textarea,
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.6rem 1rem;
+  padding: 0.7rem 1.2rem;
   border-radius: 12px;
-  border: 1px solid #263248;
-  background: #121722;
-  color: var(--text);
+  border: 2px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
   text-decoration: none;
-  font-weight: 500;
-  transition: background 0.25s ease, transform 0.15s ease;
+  font-weight: 600;
+  transition: background 0.25s ease, transform 0.15s ease, color 0.25s ease;
 }
 
 .btn:hover {
-  background: #161c2a;
-  transform: translateY(-1px);
+  background: rgba(255, 204, 0, 0.15);
+  transform: translateY(-2px);
 }
 
 .btn.primary {
-  background: var(--brand);
-  border-color: var(--brand-ink);
-  color: white;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--brand);
 }
 
 .btn.primary:hover {
-  background: var(--brand-ink);
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
 }
 
 .btn.ghost {
   background: transparent;
-  border-color: var(--brand);
-  color: var(--brand);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--text-light);
+}
+
+.btn.ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .form {
@@ -390,14 +414,14 @@ textarea,
 label {
   display: grid;
   gap: 0.25rem;
-  color: var(--muted);
+  color: var(--muted-light);
 }
 
 input,
 textarea {
-  border: 1px solid #263248;
-  background: #101521;
-  color: var(--text);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-light);
   border-radius: 10px;
   padding: 0.7rem;
 }
@@ -405,7 +429,14 @@ textarea {
 input:focus,
 textarea:focus {
   outline: 2px solid var(--ring);
-  border-color: var(--brand-ink);
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--muted-light);
+  opacity: 0.6;
 }
 
 .success {
@@ -417,7 +448,7 @@ textarea:focus {
 .timeline {
   counter-reset: step;
   padding-left: 1rem;
-  color: var(--muted);
+  color: var(--muted-light);
 }
 
 .timeline li {
@@ -431,8 +462,8 @@ textarea:focus {
   position: absolute;
   left: -1.5rem;
   top: 0;
-  background: #1a2333;
-  border: 1px solid #283650;
+  background: var(--accent);
+  border: 2px solid var(--accent-dark);
   border-radius: 8px;
   width: 1.25rem;
   height: 1.25rem;
@@ -440,16 +471,17 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   font-size: 0.75rem;
-  color: var(--muted);
+  color: var(--brand);
+  font-weight: 700;
 }
 
 /* === FOOTER === */
 .footer {
-  background: #0a0c11;
-  border-top: 1px solid #1b1f28;
+  background: var(--bg-light);
+  border-top: 3px solid var(--accent);
   padding: 2.5rem 1rem;
   text-align: center;
-  color: var(--muted);
+  color: var(--muted-light);
   margin-top: auto;
 }
 
@@ -463,20 +495,21 @@ textarea:focus {
 }
 
 .footer-title {
-  font-size: 1.5rem;
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
-  color: var(--text);
+  font-size: 1.5rem;
+  color: #ffffff; /* Change from var(--accent) to white */
   margin-bottom: 0.5rem;
 }
 
 .footer-text {
-  color: var(--muted);
+  color: var(--muted-light);
   margin: 0;
   font-size: 0.95rem;
 }
 
 .footer-subtext {
-  color: var(--muted);
+  color: var(--muted-light);
   font-size: 0.85rem;
   max-width: 500px;
   line-height: 1.5;
@@ -484,13 +517,14 @@ textarea:focus {
 }
 
 .footer a {
-  color: var(--brand);
+  color: var(--accent);
   text-decoration: none;
   font-weight: 500;
 }
 
 .footer a:hover {
   text-decoration: underline;
+  color: var(--accent-dark);
 }
 
 /* COMMITTEE MEMBERS SECTION */
@@ -503,18 +537,19 @@ textarea:focus {
 
 .member-card {
   background: var(--panel);
-  border: 1px solid #1b2230;
+  border: 2px solid #e1e6ef;
   border-radius: 14px;
   padding: 1.5rem;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .member-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 20px rgba(255, 204, 0, 0.3);
+  border-color: var(--accent);
 }
 
 .member-photo {
@@ -522,7 +557,7 @@ textarea:focus {
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #263248;
+  border: 3px solid var(--accent);
   flex-shrink: 0;
 }
 
@@ -532,7 +567,7 @@ textarea:focus {
 
 .member-info h4 {
   margin: 0 0 0.5rem 0;
-  color: var(--text);
+  color: var(--brand);
   font-size: 1rem;
   line-height: 1.4;
 }
@@ -548,7 +583,7 @@ textarea:focus {
   .committee-members {
     grid-template-columns: 1fr;
   }
-  
+
   .member-card {
     flex-direction: column;
     align-items: center;
@@ -557,11 +592,12 @@ textarea:focus {
 }
 
 .link {
-  color: var(--accent, #4da3ff);
+  color: var(--accent);
   text-decoration: none;
   font-weight: 500;
 }
 
 .link:hover {
   text-decoration: underline;
+  color: var(--accent-dark);
 }
