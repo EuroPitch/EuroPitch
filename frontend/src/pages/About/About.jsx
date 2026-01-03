@@ -33,14 +33,14 @@ const About = () => (
         <div className="member-card">
             <img src={David} alt="David Marshall" className="member-photo" />
             <div className="member-info">
-            <h4>David Marshall, <br/> UCL</h4>
+            <h4>David Marshall, <br/> University College London</h4>
             <p>EuroPitch Co-Head of Outreach,<br/>MFG President</p>
             </div>
         </div>
         <div className="member-card">
             <img src={Anshuman} alt="Anshuman Sowmyanarayan" className="member-photo" />
             <div className="member-info">
-            <h4>Anshuman Sowmyanarayan, <br/> EM Lyon/WHU</h4>
+            <h4>Anshuman Sowmyanarayan, <br/> EM Lyon</h4>
             <p>EuroPitch Co-Head of Outreach</p>
             </div>
         </div>
@@ -66,6 +66,8 @@ const About = () => (
             </div>
         </div>
         </div>
+
+        <br />
         
         <h2>Our History</h2>
         <p>
