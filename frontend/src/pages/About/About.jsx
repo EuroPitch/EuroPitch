@@ -45,24 +45,10 @@ const About = () => (
             </div>
         </div>
         <div className="member-card">
-            <img src={Ivanna} alt="Ivanna Dueñas-García" className="member-photo" />
-            <div className="member-info">
-            <h4>Ivanna Dueñas-García, <br/> University of Stirling</h4>
-            <p>EuroPitch Head of Marketing, <br/> Stirling SMIF CEO</p>
-            </div>
-        </div>
-        <div className="member-card">
             <img src={Arya} alt="Arya Wadivkar" className="member-photo" />
             <div className="member-info">
             <h4>Arya Wadivkar, <br/> University of Warwick</h4>
             <p>EuroPitch Head of Finance, <br/> WTS President</p>
-            </div>
-        </div>
-        <div className="member-card">
-            <img src={Nicolas} alt="Nicolas Sirabidze" className="member-photo" />
-            <div className="member-info">
-            <h4>Nicolas Sirabidze, <br/> SOAS (London)</h4>
-            <p>EuroPitch Head of Operations,<br/>SQIG Founder & President</p>
             </div>
         </div>
         </div>
