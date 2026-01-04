@@ -87,7 +87,7 @@ const Landing = () => {
                         <li className="team-row">
                             <div className="team-item">
                                 <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
-                                <span className="team-name">Coming Soon...</span>
+                                <span className="team-name">More Coming Soon...</span>
                             </div>
                         </li>
                     </ul>
@@ -103,12 +103,6 @@ const Landing = () => {
                             <div className="team-item">
                                 <img className="team-logo" src="/Societies/essca.png" alt="ESSCA Finance Society logo" />
                                 <span className="team-name">ESSCA Finance Society</span>
-                            </div>
-                        </li>
-                        <li className="team-row">
-                            <div className="team-item">
-                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
-                                <span className="team-name">Coming Soon...</span>
                             </div>
                         </li>
                     </ul>
@@ -176,12 +170,6 @@ const Landing = () => {
                             <div className="team-item">
                                 <img className="team-logo" src="/Societies/ismf.png" alt="Irish Student Managed Fund logo" />
                                 <span className="team-name">Irish Student Managed Fund</span>
-                            </div>
-                        </li>
-                        <li className="team-row">
-                            <div className="team-item">
-                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
-                                <span className="team-name">Coming Soon...</span>
                             </div>
                         </li>
                     </ul>
