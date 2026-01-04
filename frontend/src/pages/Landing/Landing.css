@@ -224,13 +224,41 @@
 @media (max-width: 640px) {
   .pdf-embed {
     /* occupy a large portion of the viewport so content is readable */
-    height: 60vh;
-    min-height: 320px;
+    height: 70vh;
+    min-height: 400px;
+    max-height: 600px;
+  }
+  
+  .pdf-card {
+    padding: 0.75rem;
+  }
+  
+  .pdf-card h4 {
+    font-size: 1rem;
+  }
+  
+  .join.container {
+    padding: 1rem;
+    margin: 1rem;
   }
 }
 
 @media (max-width: 840px) {
   .pdf-row {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* Extra small screens - phones in portrait */
+@media (max-width: 480px) {
+  .pdf-embed {
+    height: 75vh;
+    min-height: 450px;
+  }
+  
+  .join.container {
+    margin: 0.5rem;
+    padding: 0.75rem;
   }
 }
