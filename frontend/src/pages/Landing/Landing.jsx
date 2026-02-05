@@ -86,6 +86,20 @@ const Landing = () => {
 
                         <li className="team-row">
                             <div className="team-item">
+                                <img className="team-logo" src="/Societies/wts.png" alt="Warwick Trading Society logo" />
+                                <span className="team-name">Warwick Trading Society</span>
+                            </div>
+                        </li>
+
+                        <li className="team-row">
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/southampton.png" alt="University of Southampton Trading & Investment Society logo" />
+                                <span className="team-name">University of Southampton Trading & Investment Society</span>
+                            </div>
+                        </li>
+
+                        <li className="team-row">
+                            <div className="team-item">
                                 <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
                                 <span className="team-name">More Coming Soon...</span>
                             </div>
@@ -137,7 +151,7 @@ const Landing = () => {
                         </li>
                     </ul>
                 </div>
-
+                {/*
                 <div className="country-group">
                     <h3 className="country-header">
                         <span className="team-flag flag-ni"></span>
@@ -152,7 +166,7 @@ const Landing = () => {
                         </li>
                     </ul>
                 </div>
-
+                */}
                 <div className="country-group">
                     <h3 className="country-header">
                         <span className="team-flag flag-ireland"></span>
@@ -172,6 +186,18 @@ const Landing = () => {
                                 <span className="team-name">Irish Student Managed Fund</span>
                             </div>
                         </li>
+                        <li className="team-row">
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/ucc.png" alt="UCC SMF logo" />
+                                <span className="team-name">University College Cork Student Managed Fund</span>
+                            </div>
+                        </li>
+                        <li className="team-row">
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/nci.png" alt="NCI logo" />
+                                <span className="team-name">National College of Ireland (NCI)</span>
+                            </div>
+                        </li>
                     </ul>
                 </div>
 
@@ -189,6 +215,22 @@ const Landing = () => {
                         </li>
                     </ul>
                 </div>
+
+                <div className="country-group">
+                    <h3 className="country-header">
+                        <span className="team-flag flag-spain"></span>
+                        Spain
+                    </h3>
+                    <ul className="team-list">
+                        <li className="team-row">
+                            <div className="team-item">
+                                <img className="team-logo" src="/Societies/esade.png" alt="ESADE ESFS logo" />
+                                <span className="team-name">ESADE Student Finance Society</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </section>
     );
