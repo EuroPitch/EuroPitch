@@ -41,14 +41,14 @@ const About = () => (
             <img src={Anshuman} alt="Anshuman Sowmyanarayan" className="member-photo" />
             <div className="member-info">
             <h4>Anshuman Sowmyanarayan, <br/> EM Lyon</h4>
-            <p>EuroPitch Co-Head of Outreach</p>
+            <p>EuroPitch Co-Head of Outreach & Head of Brand.</p>
             </div>
         </div>
         <div className="member-card">
             <img src={Arya} alt="Arya Wadivkar" className="member-photo" />
             <div className="member-info">
             <h4>Arya Wadivkar, <br/> University of Warwick</h4>
-            <p>EuroPitch Head of Finance, <br/> WTS President</p>
+            <p>EuroPitch Head of Logistics & Finance, <br/> WTS President</p>
             </div>
         </div>
         </div>
@@ -62,7 +62,7 @@ const About = () => (
         that combines student learning with mutual growth between societies across Europe.
 
         The inaugural EuroPitch competition will take place during the 2025–26 academic year,
-        with the final conference scheduled for March 2026 in London.
+        with the final conference scheduled for March 2026 in England.
         </p>
     </section>
 );
