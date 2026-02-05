@@ -147,6 +147,10 @@
   background-image: url("/Flags/Monaco.svg");
 }
 
+.flag-spain {
+  background-image: url("/Flags/Spain.svg");
+}
+
 /* Join / PDF embeds */
 .join.container {
   margin: 2rem auto;
