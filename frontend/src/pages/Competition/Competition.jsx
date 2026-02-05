@@ -37,7 +37,7 @@ export default function Competition() {
           <div className="card">
             <h3>3. Grand Final</h3>
             <p>
-              Top teams convene in London for a one-day conference: present your approach, 
+              Top teams convene in England (TBD) for a one-day conference: present your approach, 
               defend decisions in Q&A sessions, and network with sponsors and industry judges.
             </p>
           </div>
@@ -48,9 +48,9 @@ export default function Competition() {
       <section style={{ marginTop: '4rem', textAlign: 'center' }}>
         <h2>Where We Meet</h2>
         <div className="card" style={{ maxWidth: '700px', margin: '1.5rem auto', padding: '2rem' }}>
-          <h3 style={{ marginBottom: '1rem' }}>📍 London (2026)</h3>
+          <h3 style={{ marginBottom: '1rem' }}>📍 England (2026)</h3>
           <p>
-            The grand final takes place in London this year. In future editions, 
+            The grand final takes place in England (Location TBD) this year. In future editions, 
             the winning team's country will host the competition—giving you the chance 
             to bring EuroPitch home!
           </p>
