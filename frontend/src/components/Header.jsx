@@ -8,7 +8,6 @@ const Header = () => {
   const navItems = [
     { path: "/about", label: "About" },
     { path: "/competition", label: "Competition" },
-    { path: "/register", label: "Register" },
     { path: "/trading", label: "Trading" },
     { path: "/contact", label: "Contact" },
   ];
@@ -41,7 +40,25 @@ const Header = () => {
               {item.label}
             </NavLink>
           ))}
+          <a
+          href="https://forms.gle/DDvVPmCQdQvLEg6y6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link mobile-signup"
+          onClick={() => setMenuOpen(false)}
+        >
+          Sign Up
+        </a>
         </nav>
+
+        <a
+          href="https://forms.gle/DDvVPmCQdQvLEg6y6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="signup-btn"
+        >
+          Sign Up
+        </a>
       </div>
     </header>
   );
