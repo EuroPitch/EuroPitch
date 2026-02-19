@@ -47,12 +47,14 @@ const Landing = () => {
                         <h4>For Societies</h4>
                         <p className="small muted">Why you should join your society into EuroPitch</p>
                         <PdfEmbed src="/docs/EuroPitch Societies.pdf" title="EuroPitch Guide" />
+                        <Link to="/societies" className="btn primary small-btn">Learn More →</Link>
                     </div>
 
                     <div className="pdf-card">
                         <h4>For Sponsors</h4>
                         <p className="small muted">What you should know about us</p>
                         <PdfEmbed src="/docs/EuroPitch Sponsors.pdf" title="EuroPitch Sponsors" />
+                        <Link to="/sponsors" className="btn primary small-btn">Learn More →</Link>
                     </div>
                 </div>
             </div>
@@ -97,13 +99,6 @@ const Landing = () => {
                                 <span className="team-name">University of Southampton Trading & Investment Society</span>
                             </div>
                         </li>
-
-                        <li className="team-row">
-                            <div className="team-item">
-                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
-                                <span className="team-name">More Coming Soon...</span>
-                            </div>
-                        </li>
                     </ul>
                 </div>
 
@@ -117,21 +112,6 @@ const Landing = () => {
                             <div className="team-item">
                                 <img className="team-logo" src="/Societies/essca.png" alt="ESSCA Finance Society logo" />
                                 <span className="team-name">ESSCA Finance Society</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="country-group">
-                    <h3 className="country-header">
-                        <span className="team-flag flag-germany"></span>
-                        Germany
-                    </h3>
-                    <ul className="team-list">
-                        <li className="team-row">
-                            <div className="team-item">
-                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
-                                <span className="team-name">Coming Soon...</span>
                             </div>
                         </li>
                     </ul>
@@ -196,21 +176,6 @@ const Landing = () => {
                             <div className="team-item">
                                 <img className="team-logo" src="/Societies/nci.png" alt="NCI logo" />
                                 <span className="team-name">National College of Ireland (NCI)</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="country-group">
-                    <h3 className="country-header">
-                        <span className="team-flag flag-scotland"></span>
-                        Scotland
-                    </h3>
-                    <ul className="team-list">
-                        <li className="team-row">
-                            <div className="team-item">
-                                <img className="team-logo" src="/Societies/logo-placeholder.png" alt="Coming soon logo" />
-                                <span className="team-name">Coming Soon...</span>
                             </div>
                         </li>
                     </ul>
