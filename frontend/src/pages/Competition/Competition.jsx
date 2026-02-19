@@ -4,7 +4,7 @@ export default function Competition() {
   return (
     <div className="page container">
       {/* Hero Section */}
-      <section className="hero" style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
+      <section className="comp-hero">
         <h1>The Competition</h1>
         <p className="lead">
           A pan-European finance competition bringing together the brightest minds 
@@ -13,7 +13,7 @@ export default function Competition() {
       </section>
 
       {/* How It Works Section */}
-      <section style={{ marginTop: '3rem' }}>
+      <section className="comp-section">
         <h2>How It Works</h2>
         <div className="features">
           <div className="card">
@@ -45,10 +45,10 @@ export default function Competition() {
       </section>
 
       {/* Location Section */}
-      <section style={{ marginTop: '4rem', textAlign: 'center' }}>
+      <section className="comp-section center">
         <h2>Where We Meet</h2>
-        <div className="card" style={{ maxWidth: '700px', margin: '1.5rem auto', padding: '2rem' }}>
-          <h3 style={{ marginBottom: '1rem' }}>📍 England (2026)</h3>
+        <div className="card comp-location-card">
+          <h3>📍 England (2026)</h3>
           <p>
             The grand final takes place in England (Location TBD) this year. In future editions, 
             the winning team's country will host the competition—giving you the chance 
@@ -57,45 +57,34 @@ export default function Competition() {
         </div>
       </section>
 
-        {/* Leadership Summit Callout */}
-        <section style={{ marginTop: '3rem' }}>
-        <div style={{ 
-            background: 'rgba(255, 204, 0, 0.15)',
-            border: '3px solid #FFCC00',
-            borderRadius: '14px',
-            padding: '2rem'
-        }}>
-            <h3 style={{ 
-            marginTop: 0, 
-            color: '#ffffff',
-            fontFamily: 'Merriweather, Georgia, Times New Roman, Times, serif',
-            fontWeight: 700
-            }}>
-            🎯 Society Executive Summit
-            </h3>
-            <p style={{ 
-            color: '#f5f7fa', 
-            marginBottom: '0',
-            lineHeight: '1.7',
-            fontSize: '1rem'
-            }}>
-            <strong style={{ color: '#ffffff' }}>Calling all Society Executives:</strong> We're hosting a leadership summit 
+      {/* Leadership Summit Callout */}
+      <section className="comp-section">
+        <div className="comp-summit-callout">
+          <h3>🎯 Society Executive Summit</h3>
+          <p>
+            <strong>Calling all Society Executives:</strong> We're hosting a leadership summit 
             alongside the main competition to facilitate discussions among societies across Europe. 
             Build partnerships, share best practices, and strengthen ties with fellow finance 
             societies for future collaborations.
-            </p>
+          </p>
         </div>
-        </section>
-
+      </section>
 
       {/* Call to Action */}
-      <section style={{ marginTop: '4rem', textAlign: 'center', paddingBottom: '2rem' }}>
+      <section className="comp-section center comp-cta">
         <h2>Ready to Compete?</h2>
-        <p className="lead" style={{ marginBottom: '2rem' }}>
+        <p className="lead">
           Societies and universities: get in touch to secure your spot in this year's competition.
         </p>
         <div className="cta-row">
-          <a href="/register" className="btn primary">Register Your Society Here!</a>
+          <a
+            href="https://forms.gle/DDvVPmCQdQvLEg6y6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn primary"
+          >
+            Register Your Society Here!
+          </a>
           <a href="/about" className="btn ghost">Learn More About EuroPitch</a>
         </div>
       </section>
