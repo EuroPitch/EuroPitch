@@ -1,32 +1,32 @@
 .results-container {
   min-height: 100vh;
-  background-color: #f8f9fa;
-  /* Use Inter to match the rest of the UI */
+  background-color: transparent;
   font-family: 'Inter', ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .results-header {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
+  background: rgba(0, 41, 102, 0.6);
+  border-bottom: 2px solid var(--accent);
   padding: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  margin-bottom: 1rem;
 }
 
 .header-content h1 {
   font-size: 24px;
   font-weight: 700;
-  color: #111827;
+  color: #ffffff;
   margin: 0 0 8px 0;
 }
 
 .header-content p {
   font-size: 15px;
-  color: #6b7280;
+  color: var(--muted-light);
   margin: 0;
 }
 
@@ -35,8 +35,8 @@
   align-items: center;
   gap: 8px;
   padding: 10px 20px;
-  background: #2563eb;
-  color: white;
+  background: var(--accent);
+  color: var(--bg);
   text-decoration: none;
   border-radius: 8px;
   font-size: 14px;
@@ -46,9 +46,9 @@
 }
 
 .btn-external:hover {
-  background: #1d4ed8;
+  background: var(--accent-dark);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 4px 12px rgba(255, 204, 0, 0.3);
 }
 
 .btn-external svg {
@@ -59,6 +59,9 @@
   position: relative;
   width: 100%;
   background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .results-iframe {
@@ -77,14 +80,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f8f9fa;
+  background: rgba(0, 26, 77, 0.5);
   pointer-events: none;
   z-index: -1;
 }
 
 .loading-spinner {
   font-size: 16px;
-  color: #6b7280;
+  color: var(--muted-light);
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
@@ -116,5 +119,12 @@
   .btn-external {
     width: 100%;
     justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .results-header {
+    border-radius: 10px;
+    padding: 16px;
   }
 }
